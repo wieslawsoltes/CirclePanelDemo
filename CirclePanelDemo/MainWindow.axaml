@@ -25,10 +25,10 @@
             <Style Selector="local|CirclePanel">
                 <Style.Animations>
                     <Animation Duration="0:0:12" IterationCount="Infinite">
-                        <KeyFrame Cue="0%" KeySpline="0.4,0,0.6,1">
+                        <KeyFrame Cue="0%">
                             <Setter Property="StartAngle" Value="-60" />
                         </KeyFrame>
-                        <KeyFrame Cue="100%" KeySpline="0.4,0,0.6,1">
+                        <KeyFrame Cue="100%">
                             <Setter Property="StartAngle" Value="270" />
                         </KeyFrame>
                     </Animation>
